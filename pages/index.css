@@ -1,0 +1,23 @@
+/*TEMP*/
+@import url(../../styles/outlines.css);
+
+@import url(../vendor/normalize.css);
+
+/*
+@import url(../styles/outlines.css);
+*/
+@import url(../blocks/root/root.css);
+
+
+/*header*/
+
+@import url(../blocks/header/header.css);
+
+/*lead*/
+@import url(../blocks/lead/lead.css);
+
+/*footer*/
+@import url(../blocks/footer/footer.css);
+
+
+

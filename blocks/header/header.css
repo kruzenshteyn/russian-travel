@@ -1,0 +1,27 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+  margin: 0;
+  overflow: hidden;
+}
+
+.header__logo{
+  background-image: url(../../images/header-logo.svg);
+  /*Поменять значения*/
+  width: 176px;
+  height: 52px;
+}
+
+.header__links{
+
+}
+
+.header__lang-link{
+  text-decoration-line: none;
+  color: white;
+}
+
+

@@ -1,0 +1,9 @@
+.footer {
+  background-color: #1f1f1f;
+  color: white;
+  /*Вычитаем padding*/
+  min-height: 250px;
+  margin-top: 0;
+  /*Используем padding для полной заливки фона*/
+  padding: 60px 0 40px 0;
+}
