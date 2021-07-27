@@ -1,0 +1,67 @@
+.places{
+  margin: 100px auto 0 auto;
+  width: 984px;
+}
+
+.place{
+  display: grid;
+  grid-template-columns: 460px 484px;
+  gap: 48px 40px;
+
+  grid-template-areas:
+    "title  website"
+    "image  text";
+}
+
+.place__title{
+  font-size: 72px;
+  line-height: 76px;
+  align-self: start;
+  justify-self: start;
+  margin: 0;
+  grid-area: title;
+}
+
+.place__website{
+  width: 100%;
+  margin: 0;
+  align-self: end;
+  justify-self: start;
+  grid-area: website;
+}
+
+.place__link{
+  font-size: 18px;
+  line-height: 22px;
+  color: white;
+
+}
+
+.place__url-heading{
+  font-size: 12px;
+  line-height: 12px;
+  color: #AAAAAA;
+  margin: 0 0 12px 0;
+}
+
+.place__image{
+  width: 100%;
+  grid-area: image;
+}
+
+.place__text{
+  margin: 0;
+  grid-area: text;
+}
+
+.place__paragraph{
+  font-size: 18px;
+  line-height: 1.63;
+  margin:0 0 26px 0;
+}
+
+.place__paragraph:last-of-type{
+  margin:0;
+}
+
+

@@ -1,0 +1,33 @@
+.intro{
+  width: 690px;
+  margin-left: 148px;
+  margin-top: 92px;
+}
+
+.intro__title{
+  font-size: 54px;
+  line-height: 58px;
+  text-align: center;
+  font-weight: 900;
+  margin: 40px auto 0 auto;
+}
+
+.intro__text{
+  font-size: 16px;
+  line-height: 1.63;
+  margin-top: 33px;
+  font-weight: 400;
+}
+
+.intro__list{
+  font-size: 12px;
+  line-height: 18px;
+  list-style: none;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+}
+
+.intro__span-accent{
+  font-weight: 400;
+}

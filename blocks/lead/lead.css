@@ -1,28 +1,42 @@
 .lead{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+
+  width: 984px;
+  margin: 0 auto 0 auto;
 }
 
 .lead__title{
   font-size: 96px;
   line-height: 100px;
   text-align: center;
+
+  font-weight: 900;
+
+  width: 720px;
+  margin: 0 auto 0 auto;
 }
 
 .lead__subtitle{
   font-size: 30px;
   line-height: 36px;
   text-align: center;
+  font-weight: 400;
 
   width: 640px;
+  margin: 32px auto 0 auto;
 }
 
 .lead__image{
   width: 100%;
+  object-fit: contain;
+
+  margin: 64px auto 0 auto;
 }
 
 .lead__caption{
   font-size: 10px;
   line-height: 14px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+
+  margin: 8px auto 0 auto;
 }
