@@ -1,16 +1,28 @@
 .root {
-  min-width: 1100px;
-  /* мы ещё не умеем делать мобильную версию сайта, */
-  /* поэтому выше установлена минимальная ширина страницы */
-  max-width: 1600px;
-  /* выше установили ограничение по максимальной ширине */
-
-  width: 1280px;
-
   margin: 0 auto;
-  /* выше для экранов больше 1600px отцентрировали весь контент */
-  font-family: "Inter", "Helvetica Neue", Arial, sans-serif;
+
+  font-family: "Inter", Arial, sans-serif;
 
   background-color: #2A2C2F;
   color: white;
+
+  width: 1280px;
+}
+
+@media screen and (max-width:1024px) {
+  .root{
+    width: 1024px;
+  }
+}
+
+@media screen and (max-width:768px) {
+  .root{
+    width: 768px;
+  }
+}
+
+@media screen and (max-width:320px) {
+  .root{
+    width: 320px;
+  }
 }

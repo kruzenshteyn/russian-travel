@@ -3,11 +3,13 @@
   flex-direction: row;
   justify-content: space-between;
   margin: 0 auto 0 auto;
-  width: 1184px;
+
+  padding: 92px 0 24px 0;
+  width: calc(1280px - 2 * 48px);
 }
 
 .footer__links{
-
+  margin: 0;
 }
 
 .footer__link{

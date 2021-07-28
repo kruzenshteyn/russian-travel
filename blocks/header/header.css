@@ -2,39 +2,32 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  align-items: center;
+  align-items:flex-end;
 
-  overflow: hidden;
-
-  width: 1184px;
+  max-width: calc(1280px - 2 * 48px);
   margin: 0 auto 0 auto;
   padding-top: 28px;
-}
-
-.header__logo{
-  background-image: url(../../images/header-logo.svg);
-  /*Поменять значения*/
-  width: 176px;
-  height: 52px;
-}
-
-.header__links{
 
 }
 
-.header__lang-link{
-  text-decoration-line: none;
-  color: white;
-
-  font-size: 24px;
-  line-height: 28px;
-  font-weight: 400;
-
-  margin-left: 18px;
+@media screen and (max-width:1024px) {
+  .header {
+    max-width: calc(1024px - 2 * 48px);
+    margin: 0 auto 0 auto;
+  }
 }
 
-.header__lang-link_active{
-  text-decoration-line: underline;
+@media screen and (max-width:768px) {
+  .header {
+    max-width: calc(768px - 2 * 24px);
+    margin: 0 auto 0 auto;
+  }
 }
 
-
+@media screen and (max-width:320px) {
+  .header {
+    max-width: calc(320px - 2 * 16px);
+    margin: 0 auto 0 auto;
+    padding-top: 16px;
+  }
+}
