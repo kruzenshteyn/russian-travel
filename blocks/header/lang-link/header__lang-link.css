@@ -1,4 +1,4 @@
-.header__lang-link{
+.header__lang-link {
   text-decoration-line: none;
   color: white;
 
@@ -9,11 +9,8 @@
   margin-left: 18px;
 }
 
-
-
-
-@media screen and (max-width:320px){
-  .header__lang-link{
+@media screen and (max-width: 320px) {
+  .header__lang-link {
     font-size: 18px;
     line-height: 20px;
   }

@@ -1,14 +1,31 @@
-
-.cover__overlay{
+.cover__overlay {
   display: block;
   background-color: rgba(42, 44, 47, 0.3);
   background-size: cover;
-  padding: 245px 0 245px;
+  padding: 245px 0;
 
   text-decoration-line: none;
   color: #fff;
 }
 
-.cover__overlay:hover{
+.cover__overlay:hover {
   background-color: rgba(42, 44, 47, 0.8);
+}
+
+@media screen and (max-width: 1024px) {
+  .cover__overlay {
+    padding: 195px 0;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover__overlay {
+    padding: 115px 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover__overlay {
+    padding: 33px 0;
+  }
 }
