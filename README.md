@@ -16,3 +16,5 @@
 
 Картинки на сайте получены из Figma и оптимизрованы. (https://tinypng.com/)
 
+Проект доступен по адресу https://kruzenshteyn.github.io/russian-travel/
+
