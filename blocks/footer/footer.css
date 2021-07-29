@@ -8,6 +8,13 @@
   max-width: calc(1280px - 2 * 48px);
 }
 
+@media screen and (max-width: 1024px) {
+  .footer {
+    max-width: calc(1024px - 2 * 48px);
+  }
+}
+
+
 @media screen and (max-width: 768px) {
   .footer {
     padding-top: 88px;
