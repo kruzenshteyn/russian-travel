@@ -3,6 +3,7 @@
   line-height: 22px;
   color: white;
   opacity: 1;
+  word-wrap: break-word;
 }
 
 .place__link:hover{
