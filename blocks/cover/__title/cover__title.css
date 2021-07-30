@@ -9,6 +9,7 @@
 
   margin: 0px auto 0 auto;
   max-width: 520px;
+  word-wrap: break-word;
 }
 
 @media screen and (max-width: 320px) {

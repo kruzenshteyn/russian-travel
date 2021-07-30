@@ -6,6 +6,8 @@
   justify-self: start;
   margin: 0;
   grid-area: title;
+  word-wrap: break-word;
+  max-width: 100%;
 }
 
 @media screen and (max-width: 768px) {
