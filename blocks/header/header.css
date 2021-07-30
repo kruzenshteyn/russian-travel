@@ -3,7 +3,6 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: flex-end;
-
   max-width: calc(1280px - 2 * 48px);
   margin: 0 auto 0 auto;
   padding-top: 28px;

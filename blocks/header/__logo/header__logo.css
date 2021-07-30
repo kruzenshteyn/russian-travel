@@ -1,7 +1,6 @@
 .header__logo {
   background: center center no-repeat url(../../../images/header-logo.svg);
   background-size: contain;
-  /*Поменять значения*/
   width: 176px;
   height: 52px;
 }
