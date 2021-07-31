@@ -10,14 +10,16 @@
 
 @media screen and (max-width: 1024px) {
   .place {
-    grid-template-columns: minmax(47%, 440px) minmax(49%, 456px);
-    gap: 48px 4%;
+    grid-template-columns: minmax(47.4%, 440px) minmax(49.1%, 456px);
+    /*48px 32px*/
+    gap: 48px 3.45%;
   }
 }
 
 @media screen and (max-width: 768px) {
   .place {
-    grid-template-columns: 47% 49%;
+    grid-template-columns: 47.3% 48.85%;
+    gap: 48px 3.85%;
     margin: 73px auto 0 auto;
   }
 }
@@ -27,7 +29,6 @@
     margin: 50px auto 0 auto;
     grid-template-columns: 100%;
     gap: 32px;
-
     grid-template-areas:
       "title"
       "website"

@@ -2,10 +2,11 @@
   display: block;
   background-color: rgba(42, 44, 47, 0.3);
   background-size: cover;
-  padding: 245px 0;
+  padding: 19.140625vw 0;
   text-decoration-line: none;
   color: #fff;
   transition: 0.7s ease-in-out;
+
 }
 
 .cover__overlay:hover {
@@ -14,13 +15,13 @@
 
 @media screen and (max-width: 1024px) {
   .cover__overlay {
-    padding: 195px 0;
+    padding: 19.04297vw 0;
   }
 }
 
 @media screen and (max-width: 768px) {
   .cover__overlay {
-    padding: 115px 0;
+    padding: 14.973958vw 0;
   }
 }
 

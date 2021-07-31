@@ -1,6 +1,6 @@
 .place__title {
   font-size: 72px;
-  line-height: 76px;
+  line-height: 1.055;
   font-weight: 900;
   align-self: start;
   justify-self: start;
@@ -17,22 +17,17 @@
 
 @media screen and (max-width: 768px) {
   .place__title {
-    font-size: 42px;
-    line-height: 46px;
+    /*42px 21px*/
+    font-size: calc(21px + 0.046875 * (100vw - 320px));
+    line-height: 1.094;
   }
 }
 
-/*С 530px начинается выход за пределы блока*/
-@media screen and (max-width: 530px) {
-  .place__title {
-    font-size: calc(21px + 0.1 * (100vw - 320px));
-  }
-}
+
 
 @media screen and (max-width: 320px) {
   .place__title {
     font-size: 32px;
-    line-height: 35px;
     margin-left: 16px;
     max-width: calc(100% - 2 * 16px);
   }

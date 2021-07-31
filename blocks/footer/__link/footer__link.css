@@ -4,7 +4,7 @@
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
-  line-height: 18px;
+  line-height: 1.125;
   text-decoration-line: none;
   color: #ffffff;
   opacity: 1;
@@ -13,6 +13,7 @@
 
 .footer__link:last-of-type {
   margin-right: 0;
+  margin-bottom: 0;
 }
 
 .footer__link:hover {
@@ -21,8 +22,9 @@
 
 @media screen and (max-width: 320px) {
   .footer__link {
+    margin-right: 0;
     margin-bottom: 32px;
     font-size: 24px;
-    line-height: 24px;
+    line-height: 1;
   }
 }
