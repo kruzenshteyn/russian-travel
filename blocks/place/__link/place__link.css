@@ -3,9 +3,23 @@
   line-height: 22px;
   color: white;
   opacity: 1;
-  word-wrap: break-word;
+  transition: 0.7s ease-in-out;
+  margin-top: 12px;
 }
 
 .place__link:hover {
   opacity: 0.8;
+}
+
+/*С 500px начинается выход за пределы блока*/
+@media screen and (max-width: 500px) {
+  .place__link {
+    font-size: calc(10px + 0.044 * (100vw - 320px));
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    font-size: 18px;
+  }
 }

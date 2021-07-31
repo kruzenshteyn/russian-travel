@@ -6,8 +6,13 @@
   justify-self: start;
   margin: 0;
   grid-area: title;
-  word-wrap: break-word;
   max-width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+  .place__title {
+    font-size: calc(58px + 0.0546875 * (100vw - 768px));
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -17,9 +22,18 @@
   }
 }
 
+/*С 530px начинается выход за пределы блока*/
+@media screen and (max-width: 530px) {
+  .place__title {
+    font-size: calc(21px + 0.1 * (100vw - 320px));
+  }
+}
+
 @media screen and (max-width: 320px) {
   .place__title {
     font-size: 32px;
     line-height: 35px;
+    margin-left: 16px;
+    max-width: calc(100% - 2 * 16px);
   }
 }

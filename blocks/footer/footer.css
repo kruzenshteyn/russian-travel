@@ -4,19 +4,13 @@
   justify-content: space-between;
   margin: 0 auto 0 auto;
   padding: 92px 0 24px 0;
-  max-width: calc(1280px - 2 * 48px);
-}
-
-@media screen and (max-width: 1024px) {
-  .footer {
-    max-width: calc(1024px - 2 * 48px);
-  }
+  max-width: calc(100% - 2 * 48px);
 }
 
 @media screen and (max-width: 768px) {
   .footer {
     padding-top: 88px;
-    max-width: calc(768px - 2 * 24px);
+    max-width: calc(100% - 6.25vw);
   }
 }
 

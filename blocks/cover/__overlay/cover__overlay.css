@@ -5,6 +5,7 @@
   padding: 245px 0;
   text-decoration-line: none;
   color: #fff;
+  transition: 0.7s ease-in-out;
 }
 
 .cover__overlay:hover {
