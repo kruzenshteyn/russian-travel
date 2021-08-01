@@ -24,7 +24,9 @@
   }
 }
 
-@media screen and (max-width: 320px) {
+/*Для исключения значительного количества переносов в __paragraph и выхода за пределы блоков __title и __link,
+переход на одну колонку проводим на 516px*/
+@media screen and (max-width: 516px) {
   .place {
     margin: 50px auto 0 auto;
     grid-template-columns: 100%;

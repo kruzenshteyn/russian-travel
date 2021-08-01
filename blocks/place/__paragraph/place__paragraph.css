@@ -15,17 +15,8 @@
   }
 }
 
-/*С 500px много переносов,
-минимальный размер шрифта 10px*/
-@media screen and (max-width: 500px) {
-  .place__paragraph {
-    font-size: calc(10px + 0.033 * (100vw - 320px));
-  }
-}
-
 @media screen and (max-width: 320px) {
   .place__paragraph {
-    font-size: 16px;
     margin: 0 auto 25px auto;
     max-width: calc(100% - 2 * 16px);
   }
